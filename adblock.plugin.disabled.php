@@ -194,7 +194,7 @@ function adblock_plugin_setting_bloc(&$myUser) {
                                 <p>
                                     '._t('P_ADBLOCK_OPT_FLASH').'<br/>
                                     <input type="radio" name="flash_adblock_enable" value="1" id="flash_adblock_block_enabled" '.(($flash_enabled) ? 'checked="checked"' : '').'/><label for="flash_adblock_block_enabled">'._t('P_ADBLOCK_OPT_ENABLED').'</label><br/>
-                                    <input type="radio" name="flash_adblock_enable" value="0" id="flash_adblock_block_disable" '.((!$flash_enabled) ? 'checked="checked"' : '').'/> <label for="flash_adblock_block_disable">'._t('P_ADBLOCK_OPT_DISABLED').'</label>
+                                    <input type="radio" name="flash_adblock_enable" value="0" id="flash_adblock_block_disable" '.((!$flash_enabled) ? 'checked="checked"' : '').'/><label for="flash_adblock_block_disable">'._t('P_ADBLOCK_OPT_DISABLED').'</label>
                                 </p>
 
                                 <p>'._t('P_ADBLOCK_DEFAULT_BEHAVIOR').'<br/>
